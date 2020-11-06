@@ -1,0 +1,10 @@
+http://localhost:8080/-666/healthiness/details
+http://localhost:8080/-666/healthiness/value
+http://localhost:8080/-666/latency/details
+http://localhost:8080/-666/latency/value
+http://localhost:8080/-666/traffic/details
+http://localhost:8080/-666/traffic/value
+http://localhost:8080/-666/error/details
+http://localhost:8080/-666/error/value
+http://localhost:8080/-666/saturation/details
+http://localhost:8080/-666/saturation/value

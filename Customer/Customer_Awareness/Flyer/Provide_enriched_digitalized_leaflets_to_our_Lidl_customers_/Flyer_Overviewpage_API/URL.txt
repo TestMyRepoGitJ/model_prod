@@ -1,0 +1,14 @@
+/generic/healthiness/details?lane=Customer&domain=Customer%20Awareness&team=Flyer&capability=Provide%20enriched%20digitalized%20leaflets%20to%20our%20Lidl%20customers.&feature=Flyer%20Overviewpage%20API&business_critical=true&business_healthiness_endpoint=true
+http://localhost:8080/0/healthiness/value
+
+/generic/latency/details?lane=Customer&domain=Customer%20Awareness&team=Flyer&capability=Provide%20enriched%20digitalized%20leaflets%20to%20our%20Lidl%20customers.&feature=Flyer%20Overviewpage%20API&expected_min_av=0.0&expected_max_av=55.5&expected_min_95=0.0&expected_max_95=99.9
+http://localhost:8080/0/latency/value
+
+/generic/traffic/details?lane=Customer&domain=Customer%20Awareness&team=Flyer&capability=Provide%20enriched%20digitalized%20leaflets%20to%20our%20Lidl%20customers.&feature=Flyer%20Overviewpage%20API&traffic_unit=requests&expected_min=0.0&expected_max=9876.65
+http://localhost:8080/0/traffic/value
+
+/generic/error/details?lane=Customer&domain=Customer%20Awareness&team=Flyer&capability=Provide%20enriched%20digitalized%20leaflets%20to%20our%20Lidl%20customers.&feature=Flyer%20Overviewpage%20API&expected_min=0.0&expected_max=3.33
+http://localhost:8080/0/error/value
+
+/generic/saturation/details?lane=Customer&domain=Customer%20Awareness&team=Flyer&capability=Provide%20enriched%20digitalized%20leaflets%20to%20our%20Lidl%20customers.&feature=Flyer%20Overviewpage%20API&expected_min=0.0&expected_max=103.0
+http://localhost:8080/0/saturation/value

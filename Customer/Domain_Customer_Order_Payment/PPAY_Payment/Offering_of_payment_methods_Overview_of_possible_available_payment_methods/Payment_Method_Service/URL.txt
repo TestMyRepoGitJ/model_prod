@@ -1,0 +1,14 @@
+/generic/healthiness/details?lane=Customer&domain=Domain%20Customer%20Order%20&%20Payment&team=PPAY%20-%20Payment&capability=Offering%20of%20payment%20methods%20Overview%20of%20possible/%20available%20payment%20methods&feature=Payment%20Method%20Service&business_critical=true&business_healthiness_endpoint=true
+http://localhost:8080/3/healthiness/value
+
+/generic/latency/details?lane=Customer&domain=Domain%20Customer%20Order%20&%20Payment&team=PPAY%20-%20Payment&capability=Offering%20of%20payment%20methods%20Overview%20of%20possible/%20available%20payment%20methods&feature=Payment%20Method%20Service&expected_min_av=0.0&expected_max_av=55.5&expected_min_95=0.0&expected_max_95=99.9
+http://localhost:8080/3/latency/value
+
+/generic/traffic/details?lane=Customer&domain=Domain%20Customer%20Order%20&%20Payment&team=PPAY%20-%20Payment&capability=Offering%20of%20payment%20methods%20Overview%20of%20possible/%20available%20payment%20methods&feature=Payment%20Method%20Service&traffic_unit=requests&expected_min=0.0&expected_max=9876.65
+http://localhost:8080/3/traffic/value
+
+/generic/error/details?lane=Customer&domain=Domain%20Customer%20Order%20&%20Payment&team=PPAY%20-%20Payment&capability=Offering%20of%20payment%20methods%20Overview%20of%20possible/%20available%20payment%20methods&feature=Payment%20Method%20Service&expected_min=0.0&expected_max=3.33
+http://localhost:8080/3/error/value
+
+/generic/saturation/details?lane=Customer&domain=Domain%20Customer%20Order%20&%20Payment&team=PPAY%20-%20Payment&capability=Offering%20of%20payment%20methods%20Overview%20of%20possible/%20available%20payment%20methods&feature=Payment%20Method%20Service&expected_min=0.0&expected_max=103.0
+http://localhost:8080/3/saturation/value
