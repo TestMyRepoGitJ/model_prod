@@ -1,0 +1,14 @@
+/generic/healthiness/details?lane=Hoehne&domain=Johannes&team=Reinigung&capability=Boden%20Reinigung&feature=Wischen&business_critical=true&business_healthiness_endpoint=true
+http://localhost:8080/4/healthiness/value
+
+/generic/latency/details?lane=Hoehne&domain=Johannes&team=Reinigung&capability=Boden%20Reinigung&feature=Wischen&expected_min_av=0.0&expected_max_av=0.0&expected_min_95=0.0&expected_max_95=0.0
+http://localhost:8080/4/latency/value
+
+/generic/traffic/details?lane=Hoehne&domain=Johannes&team=Reinigung&capability=Boden%20Reinigung&feature=Wischen&traffic_unit=requests&expected_min=0.0&expected_max=0.0
+http://localhost:8080/4/traffic/value
+
+/generic/error/details?lane=Hoehne&domain=Johannes&team=Reinigung&capability=Boden%20Reinigung&feature=Wischen&expected_min=0.0&expected_max=0.0
+http://localhost:8080/4/error/value
+
+/generic/saturation/details?lane=Hoehne&domain=Johannes&team=Reinigung&capability=Boden%20Reinigung&feature=Wischen&expected_min=0.0&expected_max=0.0
+http://localhost:8080/4/saturation/value
